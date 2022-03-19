@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Calculadora IMC</title>
+      <link rel="stylesheet" href="./Styles/global.css">
+      <link rel="stylesheet" href="./Styles/responsive.css">
+      <script src="./Scripts/main.js"></script>
+   </head>
+   <body>
+      <main>
+         <div class= "column">
+            <h2>Cálculo IMC</h2>
+            <label for="altura">Altura (Medida em CM)</label>
+            <input type="number" id="altura"/>
+            <label for="peso">Peso (KG)</label>
+            <input type="number" id="peso"/>
+            <label for="sexo">Sexo</label>
+            <select name="sexo" id="sexo">
+               <option value="masculino">Masculino</option>
+               <option value="feminino">Feminino</option>
+            </select>
+            <button onclick="calcularIMC()">Calcular</button>
+            <h4 id="resultado"></h4>
+         </div>
+      </main>
+   </body>
+</html>

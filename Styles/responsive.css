@@ -1,0 +1,10 @@
+@media (max-width: 300px) {
+    input, button, select {
+        width: 13rem !important;
+   }
+}
+@media (max-width: 700px) {
+    input, button, select {
+        width: 20rem;
+   }
+}
