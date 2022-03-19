@@ -1,4 +1,4 @@
-# Projeto tela de Login
+# Calculadora IMC
 
 ## Tecnologia utilizada
 
