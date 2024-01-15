@@ -22,14 +22,14 @@ function BaixoPeso () {
 
 function PesoNormal () {
     this.calculo = function (imc) {
-        if (imc >= 18.5 && imc <= 24.99) return this.titulo;
+        if (imc >= 18.5 && imc <= 25) return this.titulo;
     },
     this.titulo = 'Peso Normal'
 };
 
 function Sobrepeso () {
     this.calculo = function (imc) {
-        if (imc >= 25 && imc <= 29.99) return this.titulo;
+        if (imc >= 25.1 && imc <= 29.99) return this.titulo;
     },
     this.titulo = 'Sobrepeso'
 };
